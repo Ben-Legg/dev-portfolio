@@ -1,0 +1,95 @@
+/* Variables */
+:root{
+    --main: #12372A;
+    --primary: #FBFADA; /*444B8E*/
+    --secondary: #ADBC9F; /*A84A7F*/
+    --accent: #F97B22;
+}
+
+/* Decoration Reset */
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* Base Styles */
+body{
+    font-family: 'Roboto Mono';
+    background-color: var(--main);
+    overflow-x: hidden;
+}
+
+.button{
+    display: inline-block;
+    padding: 6px 12px;
+    border: 2px solid var(--accent);
+    border-radius: 12px;
+    color: var(--accent);
+    text-transform: uppercase;
+    background: none;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button:hover{
+    color: #021553;
+    background: var(--accent);
+}
+
+/* Fonts */
+@font-face{
+    font-family: 'Exo 2';
+    src: url(assets/fonts/Exo2-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto Mono';
+    src: url(assets/fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+h1,h2,h3,h4{
+    font-family: 'Exo 2';
+    color: var(--primary);
+    font-weight: normal;
+}
+
+p,a,li{
+    color: var(--secondary);
+}
+
+h1,h3{
+    font-size: 1.2em;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+h4{
+    font-size: 1.1em;
+}
+
+.leading{
+    font-size: 1.1em;
+}
+
+/* Mobile Styles */
+
+/* Small Tablet Styles */
+@media screen and (min-width: 620px){
+
+}
+
+/* Large Tablet & Laptop Styles */
+@media screen and (min-width: 960px){
+    
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1200px){
+    
+}
