@@ -21,7 +21,7 @@ li{
 
 /* Base Styles */
 body{
-    font-family: 'Roboto Mono';
+    font-family: 'Exo 2';
     background-color: var(--main);
     overflow-x: hidden;
 }
@@ -51,8 +51,11 @@ body{
     src: url(assets/fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
+section{
+    margin-bottom: 50px;
+}
 h1,h2,h3,h4{
-    font-family: 'Exo 2';
+    font-family: 'Roboto Mono';
     color: var(--primary);
     font-weight: normal;
 }
@@ -60,16 +63,17 @@ p,a,li{
     color: var(--secondary);
 }
 h1,h3{
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 h2{
-    font-size: 1.6em;
+    font-size: 2em;
 }
 h4{
     font-size: 1.1em;
 }
-.leading{
-    font-size: 1.1em;
+.emphasis{
+    font-family: 'Roboto Mono';
+    font-size: 1.2em;
 }
 
 /* Mobile Styles */
