@@ -1,9 +1,9 @@
 /* Variables */
 :root{
-    --main: #94D179;
-    --primary: #212529; /*444B8E*/
-    --secondary: #212529; /*A84A7F*/
-    --accent: #3F13BA;
+    --main: #426CCF;
+    --primary: #0E1B38;
+    --secondary: #212529;
+    --accent: #FF6130;
 }
 
 /* Decoration Reset */
@@ -21,7 +21,7 @@ li{
 
 /* Base Styles */
 body{
-    background-color: var(--main);
+    background-color: #f2f2f2;
     overflow-x: hidden;
 }
 section{
@@ -154,11 +154,6 @@ h4{
     margin: 15px 0;
 }
 
-#portfolio{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
 #portfolio h3{
     margin-bottom: 0;
     text-align: center;
@@ -209,7 +204,6 @@ h4{
 
 footer{
     padding: 30px 20px;
-    background-color: #102718;
 }
 footer .copyright{
     grid-column: 1/3;
