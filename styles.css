@@ -2,8 +2,8 @@
 :root{
     --primary: #02025C;
     --primary-shade: #CCCAEB;
-    --secondary: #4b0060;
-    --secondary-shade: #7c3091;
+    --secondary: #773685;
+    --secondary-shade: #cc9ed3;
     --background: #f2f2f2;;
     --text: #333333;
     --text-inverse: #DEDEDE;
@@ -44,6 +44,26 @@ section{
 .button:hover{
     padding-right: 100px;
     border-radius: 12px;
+}
+.section-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.section-decoration svg {
+    width: 100%;
+    height: 50px;
+}
+.section-decoration .shape-fill {
+    fill: var(--background);
+}
+.section-decoration-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: rotate(180deg);
 }
 
 /* Fonts */
@@ -140,6 +160,10 @@ h4{
     margin: 20px 0;
 }
 
+#skills {
+    background: var(--primary-shade);
+    position: relative;
+}
 #skills h3{
     text-align: center;
 }
@@ -149,8 +173,9 @@ h4{
 #skills li{
     padding: 10px;
     grid-column: span 4;
-    background: var(--primary-shade);
     text-align: center;
+    background: var(--background);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
 }
 #skills img{
     height: 60px;
