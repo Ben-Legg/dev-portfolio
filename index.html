@@ -88,26 +88,38 @@
     
     <section id="portfolio">
         <h3>Software Development Projects</h3>
-        <ul class="projects grid">
-            <li>
-                <a href="https://github.com/Ben-Legg/CTEC3905-Responsive-Website">
-                    <img src="assets/responsive-website-project.png" alt="screenshot of responsive website project">
-                    <h4>Responsive Website</h4>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/Ben-Legg/CTEC3451-Development-Project">
-                    <img src="assets/cryptographic-protocol-project.png" alt="screenshot of cryptographic protocol project">
-                    <h4>Cryptographic Communication Protocol</h4>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/Ben-Legg/Poll-Web-App">
-                    <img src="assets/poll-app-project.png" alt="screenshot of poll app project">
-                    <h4>Simple Poll App</h4>
-                </a>
-            </li>
-        </ul>
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left is-hidden">
+                <img src="assets/arrow-left.png" alt="">
+            </button>
+    
+            <div class="carousel__track-container">
+                <div class="carousel__track">
+                    <a href="" class="carousel__slide current-slide">
+                        <img class="carousel__image" src="assets/crypto.png" alt="">
+                        <h4 class="carousel__heading">Cryptography Project</h4>
+                    </a>
+                    <a href="" class="carousel__slide">
+                        <img class="carousel__image" src="assets/poll.png" alt="">
+                        <h4 class="carousel__heading">Simple Poll App</h4>
+                    </a>
+                    <a href="" class="carousel__slide">
+                        <img class="carousel__image" src="assets/greenhouse.png" alt="">
+                        <h4 class="carousel__heading">Responsive Website</h4>
+                    </a>
+                </div>
+            </div>
+    
+            <button class="carousel__button carousel__button--right">
+                <img src="assets/arrow-right.png" alt="">
+            </button>
+    
+            <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div>
+        </div>
     </section>
     
     <section id="details">
@@ -148,5 +160,7 @@
             <p class="copyright">Copyright 2024 Ben Legg</p>
         </div>
     </footer>
+    
+    <script src="js/carousel.js"></script>
 </body>
 </html>
